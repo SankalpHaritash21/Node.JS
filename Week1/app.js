@@ -3,6 +3,10 @@ const { fun, x1 } = require("./xyz.js");
 
 const { mul, Power } = require("./calculate");
 
+const data = require("./calculate/data.json");
+
+console.log("Access Data from external file", JSON.stringify(data));
+
 //import { x1, fun } from "./xyz.js";
 var x = "Sankalp Haritash";
 
